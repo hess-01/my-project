@@ -1,0 +1,50 @@
+# Define a variable named "price" and set its value to the cost of the item the customer is purchasing (e.g., 8 SR).
+price = 8 SR
+
+
+# Define a variable named "quantity" and set its value to the number of items the customer is purchasing (e.g., 8).
+var  = quantity
+quantity = 8
+print (quantity)
+
+
+# Define a variable named "tax_rate" and set its value to the tax rate in your area (e.g., 15%SR).
+var = tax_rate
+tax_rate = 0.015 SR
+print (tax_rate)
+
+
+
+# Calculate the subtotal by multiplying the price by the quantity and store the result in a variable named "subtotal".
+subtotal = price*quantity
+subtotal = 100.75*3
+print (subtotal)
+
+
+# Calculate the tax by multiplying the subtotal by the tax rate (in decimal form, e.g., 0.015) and store the result in a variable named "tax".
+tax = subtotal*0.015
+tax = 58*0.015
+print (tax)
+
+
+# Calculate the total cost by adding the subtotal and the tax, and store the result in a variable named "total".
+total = subtotal +(subtotal*tax)
+total = 74 +(74*0.015)
+print subtotal
+
+# Print the subtotal, tax, and total costs, formatted as currency (e.g., 14 SR) for the total cost).
+subtotal = 38
+tax_rate = 0.015
+
+# calculate the tax and total cost
+tax = sub total*tax_rate
+
+# formate the values as currency
+subtotal_formatted = "${:.2f}".(subtotal)
+tax_formatted = "${:.2f}".format(tax)
+total_formatted = "${:.2f}"format(total)
+
+# print the result
+print ("Subtotal:",subtotal_formatted)
+print("Tax:",taxformatted)
+print("Total:", total_formatted)
